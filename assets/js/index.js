@@ -40,4 +40,6 @@ myCarousel.addEventListener('slid.bs.carousel', function () {
   })
 
 
-
+  $('.carousel').carousel({
+	interval: 7000
+  })
